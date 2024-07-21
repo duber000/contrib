@@ -27,3 +27,6 @@ name: workers
 machineClass:
   name: omni-contrib-workers
   size: unlimited
+systemExtensions:
+  - siderolabs/iscsi-tools
+  - siderolabs/util-linux-tools
