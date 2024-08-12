@@ -6,6 +6,8 @@ kubernetes:
   version: 1.30.3
 features:
   enableWorkloadProxy: true
+  backupConfiguration:
+    interval: 24h
 patches:
   - name: cni
     file: patches/cni.yaml
