@@ -3,7 +3,7 @@ name: omni-contrib
 talos:
   version: v1.7.6
 kubernetes:
-  version: 1.30.3
+  version: 1.30.4
 features:
   enableWorkloadProxy: true
   backupConfiguration:
